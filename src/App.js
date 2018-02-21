@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { subscribeToTimer } from './api';
 
@@ -20,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <p className="App-intro">
-        This is the timer value: {this.state.timestamp}
+          Timer value: {this.state.timestamp}
         </p>
       </div>
     );
